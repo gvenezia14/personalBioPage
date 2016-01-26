@@ -1,0 +1,31 @@
+<h1 class="heading">Heading Goes Here</h1> 
+
+Structure: <html> <body> <hr> <br>
+Semantic: <hl> <p> <ul> <ol> <li>
+
+Example list:
+<ul>
+  <li>list item one</li>
+  <li>another item
+    <ol>
+      <li>sub items</li>
+      <li>another one</li>
+    </ol>
+  </li>
+</ul>
+
+Links: in quotes put link to webpage, image,etc. # is a placeholder
+<a href="#">link text</a>
+
+Relative: href="anotherPage.html" for same folder
+Root: href="/anotherPage.html" different folder. 
+  ../ takes you up a level
+  / takes you down a level
+Abolute: href="http://google.com"
+
+To open in new tab: <a href=http://google.com" target="_blank">link text<a/>
+To link inside a page: give ID 
+ <a/> href="#heading">link text 
+  <div id="heading">
+        <h1>helloworld</h1>
+      </div>
